@@ -3,3 +3,7 @@
 </div>
 
 # vex-lib-js
+
+Install via npm:
+
+	npm i vex-coin-lib-js --save
