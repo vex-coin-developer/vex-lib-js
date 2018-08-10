@@ -1,8 +1,8 @@
 {
   "name": "vex-coin-lib-js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "JavaScript library for vex",
-  "main": "index.js",
+  "main": "dist/vex-lib.min.js",
   "scripts": {
     "start": "webpack-dev-server --open --config webpack.dev.js",
     "build": "webpack --config webpack.dev.js && webpack --config webpack.prod.js"
