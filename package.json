@@ -1,6 +1,6 @@
 {
   "name": "vex-coin-lib-js",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "JavaScript library for vex",
   "main": "dist/vex-lib.min.js",
   "scripts": {
@@ -31,5 +31,7 @@
     "webpack-dev-server": "^3.1.5",
     "webpack-merge": "^4.1.4"
   },
-  "dependencies": {}
+  "dependencies": {
+    "elliptic": "^6.4.1"
+  }
 }

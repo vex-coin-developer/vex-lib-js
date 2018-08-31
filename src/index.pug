@@ -10,4 +10,10 @@ html(lang="en")
 		h1 vex-lib-js
 		script.
 			console.log('VexLib', VexLib);
-			console.log('VexLib.generateSeed()', VexLib.generateSeed());
+			let seed = VexLib.generateSeed();
+			console.log('seed', seed);
+			console.log('----------------------------------------------------------');
+			console.log('VexLib.getWalletSlot()', JSON.stringify(VexLib.getWalletSlot(seed, 0)));
+			console.log('VexLib.getWalletSlot()', VexLib.getWalletSlot(seed, 1));
+			console.log('VexLib.getWalletSlot()', VexLib.getWalletSlot(seed, 0));
+			console.log('VexLib.getWalletSlot()', VexLib.getWalletSlot(seed, 1));
